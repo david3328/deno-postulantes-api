@@ -9,12 +9,15 @@
   "deno_args":[
     "--allow-net",
     "--allow-read",
-    "--allow-env"
+    "--allow-env",
+    "--allow-write",
+    "--allow-plugin",
+    "--unstable"
   ],
   "execute":{
     ".ts":["deno","run"],
     ".js":["deno","run"]
   },
   "fmt":true,
-  "test":true
+  "test":false
 }
