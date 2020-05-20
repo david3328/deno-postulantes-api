@@ -1,0 +1,20 @@
+{
+  "files":["server.ts"],
+  "debug":true,
+  "watch":[
+    "controllers/",
+    "routes/",
+    "config/"
+  ],
+  "deno_args":[
+    "--allow-net",
+    "--allow-read",
+    "--allow-env"
+  ],
+  "execute":{
+    ".ts":["deno","run"],
+    ".js":["deno","run"]
+  },
+  "fmt":true,
+  "test":true
+}
